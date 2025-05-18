@@ -1,5 +1,5 @@
-name: Pagina Para Ingenieria de Software 24-1
+name: Pagina Para Proyectos Universitarios
 theme: jekyll-theme-minimal
 collections:
-	notes:
-		output: true
+ notes:
+  output: true
