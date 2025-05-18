@@ -3,3 +3,4 @@ theme: jekyll-theme-minimal
 collections:
  notes:
   output: true
+  source: _notes
