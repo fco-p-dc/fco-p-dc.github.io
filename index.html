@@ -5,15 +5,14 @@
         <link rel="stylesheet" href="/assets/css/style.css">
     <main>
         <div class="banner">
-            <h1>Presentaciones</h1>
+            <h1>Notas Inteligencia Artificial</h1>
         </div>
         
         <div class="lista">
             <ul>
                 {% for note in site.notes %}
                     <li>
-                        <a href="{{ item.link }}">{{ note.url }}</a>
-                        <p>{{ note.title }}</p>
+                        <a href="{{ note.url }}">{{ note.title }}</a>
                     </li>
                 {% endfor %}
             </ul>

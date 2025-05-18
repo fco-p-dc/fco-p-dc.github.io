@@ -4,6 +4,23 @@ body {
     font-family: Arial, sans-serif;
 }
 
+.banner {
+    background: linear-gradient(to right, #bb86fc, #3700b3);
+    text-align: center;
+    padding: 50px;
+    color: #ffffff;
+    font-size: 2em;
+}
+
+.banner h1 {
+    animation: fadeIn 2s ease-in-out;
+}
+  
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
 a {
     color: #bb86fc;
     text-decoration: none;
