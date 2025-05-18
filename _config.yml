@@ -1,2 +1,5 @@
 name: Pagina Para Ingenieria de Software 24-1
 theme: jekyll-theme-minimal
+collections:
+	notes:
+		output: true
