@@ -4,12 +4,30 @@
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/assets/css/style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']],
+                processEscapes: true
+            },
+            svg: { fontCache: 'global' }
+        };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
 </head>
 <body>
     <div class="banner">
         <h1>{{ site.title }}</h1>
     </div>
     
+    <nav class="navbar">
+        <ul>
+            <li><a href="/">Notas</a></li>
+            <li><a href="/proy.html">Proyectos</a></li>
+        </ul>
+    </nav>
+
     <main>
         {{ content }}
     </main>
